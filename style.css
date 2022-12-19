@@ -1,0 +1,77 @@
+.youtube-img {
+  width: 200px;
+}
+.video-thumb{
+  margin: 50px 0 5% 15%;
+}
+.tumbpic{
+  height: 120px;
+  width: 180px;
+}
+
+span {
+  display: inline-block;
+}
+.section2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1%;
+  background-color: rgba(255, 255, 255, 0.8);
+}.left {
+  margin: auto;
+}
+.description{
+  text-align: left;
+  grid-column-gap: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 900px;
+  border: 3px solid grey;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  color: grey;
+  display: inline-block;
+}
+
+.searchTerm:focus{
+  color: grey;
+}
+.mic {
+  margin-top: 10px;padding-left: 3px
+}
+.searchButton {
+  width: 50%;
+  height: 46px;
+  border: 3px solid grey;
+  background: #fff;
+  text-align: center;
+  color: #111;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
